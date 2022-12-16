@@ -1,0 +1,40 @@
+.title-word {
+  color: #da9438;
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-2 {
+  animation-delay: 0.4s;
+}
+
+.title-word-3 {
+  animation-delay: 0.8s;
+  /* color: #3d8dae; */
+}
+
+@keyframes color-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(365deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 30;
+  font-size: 70px;
+}
